@@ -1,0 +1,23 @@
+{
+  "name": "website-watch",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc && cdk synth",
+    "watch": "tsc -w",
+    "test": "jest",
+    "deploy": "cdk deploy",
+    "synth": "cdk synth",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "aws-cdk": "^2.115.0",
+    "prettier": "3.1.1",
+    "typescript": "~5.3.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.115.0",
+    "constructs": "^10.3.0",
+    "dotenv": "^16.3.1"
+  }
+}

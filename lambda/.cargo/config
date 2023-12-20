@@ -1,0 +1,5 @@
+[alias]
+b = "build"
+t = "test"
+r = "run"
+lb = ["lambda", "build", "--release", "--output-format", "zip"]
